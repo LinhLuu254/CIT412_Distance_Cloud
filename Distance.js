@@ -1,23 +1,23 @@
 // Internal helper functions
 const feetToMeters = (feet) => {
     let meters = (feet * 0.304).toFixed(2);
-    return `${feet} is ${meters} meters`
+    return `${meters}`
 
 }
 
 const metersToFeet = (meters) => {
     let feet = (meters* 3.28084).toFixed(2);
-    return `${meters} is ${feet} feet.`
+    return `${feet}`
 }
 
 const milesToKm = (miles) => {
     let kilometer = (miles * 1.60934).toFixed(2);
-    return `${miles} is ${kilometer} kilometers.`
+    return `${kilometer}`
 }
 
 const kmToMiles = (km) => {
     let miles = (km * 0.621371).toFixed(2);
-    return `${km} is ${miles} miles.`
+    return `${miles}`
 }
 
 
